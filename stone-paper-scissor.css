@@ -2,10 +2,33 @@ body {
     background-color: #030637;
 }
 
-.heading {
+.hide {
+    display: none;
+}
+
+.heading1 {
     text-align: center;
     color: white;
     font-size: 50px;
+}
+
+.heading2 {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+button {
+    margin-left: 630px;
+    text-align: center;
+    color: 030637;
+    font-size: 30px;
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
 
 .choices {
@@ -80,3 +103,8 @@ img {
 .ending.clicked {
     transform: scale(1);
 }
+
+
+/* margin-left: 480px;
+width: 600px;
+height: 55px; */
